@@ -1,0 +1,128 @@
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    color: aliceblue;
+
+    background-image: url("Арты/Фон.jpg");
+    background-position: top;
+    background-size: 100% auto;
+    height: 1460px;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 10px 5px 0 5px;
+}
+
+p {
+    margin: 0;
+    padding: 5px;
+}
+
+header {
+    height: 4em;
+    background-image: linear-gradient(to right, #2a2a2a, #414040, #2a2a2a);
+    box-shadow: 0 0 5px 0 #000;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: calc(100% - 2em);
+}
+
+header a {
+    margin-left: 5px;
+    background-color: rgb(165, 165, 165);
+    text-align: center;
+    padding: 7px 15px;
+    color: inherit;
+    border-radius: 5px;
+    transition: linear .1s;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+a, a:hover, a:visited, a:active {
+    background-color: rgba(128, 128, 128, 0.5);
+    color:rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+header img {
+    margin-right: auto;
+    border: 2px solid #000;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+    height: 100%;
+    width: auto;
+}
+
+header a:last-child {
+    margin-left: auto;
+}
+
+hr {
+    margin: 0;
+}
+
+.Strength {
+    display: flex;
+    margin: 2em;
+    text-align: center;
+}
+
+.Strength_left > div:nth-child(2) {
+    display: flex;
+}
+
+.Strength_left > div:nth-child(2) div:first-child {
+    width: 50%;
+    border-right: 1px solid;
+    border-color: #9A9A9A;
+}
+
+.Strength_left > div:nth-child(2) div:last-child {
+    width: 50%;
+    border-left: 1px solid;
+}
+
+.Strength_left {
+    width: 50%;
+    border-right: 1px solid;
+    border-color: #9A9A9A;
+}
+
+.Strength {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+.Strength_right {
+    width: 50%;
+    border-left: 1px solid;
+}
+
+.Strength_right > div:first-child {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Strength_right > div:first-child > div:first-child {
+    
+}
+
+.Strength_right > div:first-child > div:last-child {
+    
+}
